@@ -13,6 +13,6 @@ export const numberSlice = createSlice({
     },
 });
 
-export const { incrementNumber } = numberSlice.actions;
+export const { incrementNumber, decrementNumber } = numberSlice.actions;
 
 export default numberSlice.reducer;
